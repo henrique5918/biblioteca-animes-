@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Animes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .anime {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .anime:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bem-vindo à Biblioteca de Animes!</h1>
+    <div class="container" id="animeContainer">
+        <div class="anime" onclick="location.href='naruto.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/93/Naruto_vol1.jpg" alt="Naruto">
+            <h2>Naruto</h2>
+        </div>
+        <div class="anime" onclick="location.href='onepiece.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/87/OnePiece_1st_volume.png" alt="One Piece">
+            <h2>One Piece</h2>
+        </div>
+        <div class="anime" onclick="location.href='attackontitan.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Attack_on_Titan_vol_1_cover.jpg" alt="Attack on Titan">
+            <h2>Attack on Titan</h2>
+        </div>
+        <div class="anime" onclick="location.href='myhero.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/My_Hero_Academia_1.png" alt="My Hero Academia">
+            <h2>My Hero Academia</h2>
+        </div>
+        <div class="anime" onclick="location.href='demonslayer.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4e/Demon_Slayer_Volume_1.jpg" alt="Demon Slayer">
+            <h2>Demon Slayer</h2>
+        </div>
+        <div class="anime" onclick="location.href='deathnote.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/63/Death_Note_volume_1.png" alt="Death Note">
+            <h2>Death Note</h2>
+        </div>
+        <div class="anime" onclick="location.href='swordart.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Sword_Art_Online_Volume_1.jpg" alt="Sword Art Online">
+            <h2>Sword Art Online</h2>
+        </div>
+        <div class="anime" onclick="location.href='tokyoghoul.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Tokyo_Ghoul_Volume_1.jpg" alt="Tokyo Ghoul">
+            <h2>Tokyo Ghoul</h2>
+        </div>
+        <div class="anime" onclick="location.href='fullmetal.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/06/Fullmetal_Alchemist_1_cover.png" alt="Fullmetal Alchemist">
+            <h2>Fullmetal Alchemist</h2>
+        </div>
+        <div class="anime" onclick="location.href='hunterxhunter.html'">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Hunter_X_Hunter_Volume_1.jpg" alt="Hunter x Hunter">
+            <h2>Hunter x Hunter</h2>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Biblioteca de Animes</p>
+    </footer>
+
+</body>
+</html>
